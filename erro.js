@@ -13,7 +13,7 @@ function imprimirNoemGritando(obj) {
         console.log(obj.name.toUpperCase() + '!!!!')
     } catch (e) {
         tratarErroeLancar(e)
-        finally {
+        
             console.log('final')
         }
     }
